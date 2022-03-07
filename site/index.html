@@ -12,5 +12,38 @@
 
     <h2>Hello There</h2>
     <p>My name is Kennedy</p>
+    <!--setting the date and time-->
+     <!--showing current date and time-->
+     <script>
+        function startDate() {
+          var d = new Date();
+          var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+          var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+          document.getElementById("date").innerHTML = days[d.getDay()]+" | "+d.getDate()+" "+months[d.getMonth()]+" "+d.getFullYear();
+        }
+      startDate();
+      </script>
+      
+      <body onload='startDate()'>
+       <hr> <div id='date'></div> <!-- use some css on #Date -->
+
+       <h2>images</h2>
+       <p>
+       
+
+        <img src="../site/images/wallpaperflare.com_wallpaper (15).jpg" width="600px" height="100%" alt="picture of joker">
+        
+        <span id="quote">“If you’re good at something, never do it for free.”</span>
+       
+       </p>
+    
+
+       <section>
+
+        This website will be dedicated to <strong> RECOMMENDING New</strong> Mangas,Manhuas.
+        <div>This is my blog thus this mangas are my own opinions</div>
+       </section>
+
+
 </body>
 </html>
