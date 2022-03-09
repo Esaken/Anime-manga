@@ -1,9 +1,36 @@
 body{
-    background-color: beige;
+    background-color: pink;
+    
 }
 
 #quote{
-    text-align: justify;
-    font-size: 100px;
-    margin-left: 70px;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+
 }
+#links li{
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+a:link, a:visited{
+    margin: 0px 30% 0px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    width:300px;
+    text-align: center;
+   
+}
+
+a:active, a:hover{
+    background-color: none;
+    color: white;
+    font-size: 50px;
+    text-shadow: rgb(206, 150, 76) 0 0 10px;
+}
+
