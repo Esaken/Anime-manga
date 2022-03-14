@@ -34,3 +34,11 @@ a:active, a:hover{
     text-shadow: rgb(206, 150, 76) 0 0 10px;
 }
 
+#box-container{
+   border: 2px solid red;
+   padding: 10px 10px 10px 10px;
+   background-color: none;
+   margin-top: 15px;
+   margin-bottom: 30px;
+}
+
