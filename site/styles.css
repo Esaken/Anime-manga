@@ -12,33 +12,41 @@ body{
     border-color: white;
 
 }
-#links li{
-    list-style: none;
-    position: relative;
-    display: flex;
-}
-a:link, a:visited{
-    margin: 0px 30% 0px;
-    text-decoration: none;
-    display: block;
-    position: relative;
-    width:300px;
-    text-align: center;
+
+
+#box-container-slide{
    
-}
-
-a:active, a:hover{
-    background-color: none;
-    color: white;
-    font-size: 50px;
-    text-shadow: rgb(206, 150, 76) 0 0 10px;
-}
-
-#box-container{
-   border: 2px solid red;
+    background-color: aqua;
+   border-top-color: #856036;
+   border-left-color: #5d4426;
+   border-bottom-color: #856036;
+   border-right-color: #5d4426;
+   position: relative;
    padding: 10px 10px 10px 10px;
    background-color: none;
    margin-top: 15px;
    margin-bottom: 30px;
+   width: 116em;
+   height: 700px;
+   overflow: hidden;
+
+}
+.photo-slide{
+    align-items: center;
+    display: block;
+    margin-left: 40%;
 }
 
+
+.container1{
+    display: grid;
+    border: 4px solid black;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows:1fr;
+    column-gap: 3px;
+    row-gap: 8px;
+}
+.grid4{
+    border: 1.5px solid black;
+    
+}
