@@ -3,6 +3,7 @@ body{
     
 }
 
+
 #quote{
     display: block;
     text-align: center;
@@ -48,5 +49,44 @@ body{
 }
 .grid4{
     border: 1.5px solid black;
+    min-height: 100px;
+    
     
 }
+.summary-manhua{
+   visibility: hidden;
+    overflow: scroll;
+}
+
+.summary-manhua :hover {
+    visibility:visible;
+}
+
+#top-nav{
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+}
+#top-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  #top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #top-nav a.active-link {
+    background-color: #04AA6D;
+    color: white;
+  }
